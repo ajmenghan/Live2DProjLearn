@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B882C449-E1D5-BB8B-E0DD-59883830421E}</ProjectGuid>
+    <ProjectGuid>{D535CA8C-104B-9AC1-2F87-4EE41A2B077D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,6 +66,20 @@
      <Compile Include="Assets\framework\L2DViewMatrix.cs" />
      <Compile Include="Assets\framework\Live2DFramework.cs" />
      <Compile Include="Assets\Scripts\Live2DModel.cs" />
+     <Compile Include="Assets\Scripts\sample\ButtonChangeModel.cs" />
+     <Compile Include="Assets\Scripts\sample\LAppDefine.cs" />
+     <Compile Include="Assets\Scripts\sample\LAppLive2DManager.cs" />
+     <Compile Include="Assets\Scripts\sample\LAppModel.cs" />
+     <Compile Include="Assets\Scripts\sample\LAppModelProxy.cs" />
+     <Compile Include="Assets\Scripts\sample\LAppView.cs" />
+     <Compile Include="Assets\Scripts\sample\MyGameController.cs" />
+     <Compile Include="Assets\Scripts\sample\PlatformManager.cs" />
+     <Compile Include="Assets\Scripts\utils\AccelHelper.cs" />
+     <Compile Include="Assets\Scripts\utils\FileManager.cs" />
+     <Compile Include="Assets\Scripts\utils\HitAreaUtil.cs" />
+     <Compile Include="Assets\Scripts\utils\ModelSetting.cs" />
+     <Compile Include="Assets\Scripts\utils\ModelSettingJson.cs" />
+     <Compile Include="Assets\Scripts\utils\TouchManager.cs" />
      <None Include="Assets\lib\Resources\shader\merged\Live2D-Masked.shader" />
      <None Include="Assets\lib\Resources\shader\merged\Live2D-Masked-PremultipliedAlpha.shader" />
      <None Include="Assets\lib\Resources\shader\merged\Live2D.shader" />
@@ -98,6 +112,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Live2DUnity">
+ <HintPath>E:/GitProjects/Live2DProjLearn/Assets/lib/Live2DUnity.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -106,9 +123,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Live2DUnity">
- <HintPath>E:/UnityProjects/Live2DLearn/Assets/lib/Live2DUnity.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
